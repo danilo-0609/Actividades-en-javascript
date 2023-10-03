@@ -21,7 +21,7 @@ for (let i = 0; i < 2; i++) {
     console.log("Ahora, ingresa, por favor, 3 canciones que te gusten mucho, o tus favoritas");
 
     for (let j = 0; j < 3; j++) {
-        const cancion = readline.question(`Ingresa la canción ${j + 1} de tus canciones favoritas: `);
+        const cancion = readline.question(`Ingresa la cancion ${j + 1} de tus canciones favoritas: `);
         usuario.cancionesFavoritas.push(cancion);
     }
 

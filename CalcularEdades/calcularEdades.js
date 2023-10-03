@@ -10,7 +10,7 @@ let edad;
     do {
         edad = parseInt(readline.question("Digita la edad de la " + contador + " persona: "));
         if(edad > 120){
-            console.log("No puedes colocar una edad tan alta. Pon una edad más baja");
+            console.log("No puedes colocar una edad tan alta. Pon una edad mas baja");
             edad = parseInt(readline.question("Digita la edad de la " + contador + " persona: ")); 
             
             if (edad < 120) {
@@ -61,7 +61,5 @@ console.log("--------------------------------------------------");
 console.log("¡Gracias por usar el programa!");
 console.log("--------------------------------------------------");
 
-//Para correr el programa, por favor, digita npm run start, en la linea de comandos
-//de powershell o cmd.
 
 

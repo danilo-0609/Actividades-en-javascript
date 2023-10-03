@@ -49,7 +49,6 @@ const vectoresCombinados = primerVector.concat(segundoVector).sort((a, b) => a -
 console.log("Vectores combinados: " + vectoresCombinados);
 console.log("¡Gracias por usar el programa!");
 
-//Para correr el programa, por favor, digita npm run start, en la linea de comandos
-//de powershell o cmd.
+
 
 

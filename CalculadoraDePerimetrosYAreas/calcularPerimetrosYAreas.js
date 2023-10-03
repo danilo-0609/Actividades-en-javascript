@@ -105,6 +105,4 @@ function isYesOrNo(s) {
     return false;
 }
 
-//Para correr el programa, por favor, digita npm run start, en la linea de comandos
-//de powershell o cmd.
 
